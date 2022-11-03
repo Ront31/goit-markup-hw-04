@@ -156,6 +156,8 @@ button {
 /* hero */
 .hero {
   background-color: var(--hero-background-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/main/hero-image.jpg);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
