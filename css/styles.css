@@ -163,6 +163,8 @@ button {
   background-color: var(--hero-background-color);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/main/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -386,10 +388,43 @@ button {
   gap: 70px;
 }
 
+.join-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--universal-color);
+  margin-bottom: 20px;
+}
+
 .footer-socials {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  gap: 10px;
+}
+
+.footer-socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--universal-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-socials-link:hover,
+.footer-socials-link:focus {
+  background-color: var(--hover-text-color);
+}
+
+.footer-icon {
+  fill: currentColor;
 }
 
 .footer-logo {
