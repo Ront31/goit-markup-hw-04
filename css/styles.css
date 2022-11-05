@@ -391,9 +391,8 @@ button {
   gap: 70px;
 }
 
-.join-title {
+.join-text {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 
@@ -401,11 +400,21 @@ button {
   margin-bottom: 20px;
 }
 
+.container.footer {
+  display: flex;
+  align-items: baseline;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.footer-point.join {
+  margin-left: 70px;
+}
+
 .footer-socials {
   display: flex;
   align-items: center;
   justify-content: center;
-
   gap: 10px;
 }
 
@@ -516,8 +525,12 @@ button {
   margin-bottom: 30px;
 }
 
-.img-list-point:hover,
-.img-list-point:focus {
+.img-link {
+  display: block;
+}
+
+.img-link:hover,
+.img-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
