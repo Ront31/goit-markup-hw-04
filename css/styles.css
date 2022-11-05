@@ -165,9 +165,13 @@ button {
     url(../images/main/hero-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  height: 600px;
+  max-width: 1600px;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -220,12 +224,12 @@ button {
 .benefits-div {
   background: #f5f4fa;
   border-radius: 4px;
-  padding-top: 25px;
-  padding-bottom: 25px;
   margin-bottom: 30px;
+  height: 120px;
 
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .benefits-list {
@@ -356,7 +360,7 @@ button {
   align-items: center;
   justify-content: center;
 
-  border: 1px solid var(--team-social-links-color);
+  border: 1px solid currentColor;
   border-radius: 4px;
   width: 170px;
   height: 92px;
@@ -367,7 +371,6 @@ button {
 .clients-link:hover,
 .clients-link:focus {
   color: var(--hover-text-color);
-  border: 1px solid var(--hover-text-color);
 }
 
 .clients-icon {
